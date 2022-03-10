@@ -5,8 +5,10 @@ In this kernel we would be using content based filtering to recommend movies.
 
 In this recommender system the content of the movie (overview, cast, crew, keyword, tagline etc) is used to find its similarity with other movies. Then the movies that are most likely to be similar are recommended.
 
-The first dataset contains the following features:- movie_id - A unique identifier for each movie.
+The first dataset contains the following features:- 
 ```
+movie_id - A unique identifier for each movie.
+
 cast - The name of lead and supporting actors.
 
 crew - The name of Director, Editor, Composer, Writer etc.
