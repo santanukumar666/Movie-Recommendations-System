@@ -67,3 +67,14 @@ Mathematically, it is defined as follows:
 
 ![cosine_similarity](https://user-images.githubusercontent.com/60546202/157675938-7acae7b1-39da-40e0-98d2-6bddecd1e7ab.png)
 
+### Credits, Genres and Keywords Based Recommender
+The quality of our recommender would be increased with the usage of better dataframes. So, we are going to build a recommender based on the following metadata: the 3 top actors, the director, related genres and the movie plot keywords.
+
+From the cast, crew and keywords features, we need to extract the three most important actors, the director and the keywords associated with that movie. Our data is present in the form of "stringified" lists , we need to convert it into a safe and usable structure.
+
+We see that our recommender has been successful in capturing more information due to more metadata and has given us better recommendations.
+
+- It is more likely that Marvels or DC comics fans will like the movies of the same production house. Therefore, to our features above we can add production_company.
+We can also increase the weight of the director, by adding the feature multiple times in the soup.
+
+
