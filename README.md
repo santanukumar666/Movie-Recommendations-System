@@ -10,7 +10,7 @@ There are basically **three** types of recommender systems:-
 
 In this repository I have made three python kernels explaining and implementing the different types of movie recommender systems.
 
-A webapp built using streamlit to display movie recommendation based on contect based filtering using cosine similarity. 
+A webapp built using streamlit to display movie recommendation based on content based filtering using cosine similarity. 
 
 - It gives recommendations based on movie content.
 - One can give the movie title or director's name to get appropriate movie recommendations.
