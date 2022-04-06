@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+matplotlib
+pickle
+sklearn
+nltk
+ast
