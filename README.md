@@ -1,4 +1,4 @@
-# Movie-Recommendations-system
+# Movie-Recommendations-System
 
 There are basically **three** types of recommender systems:-
 
